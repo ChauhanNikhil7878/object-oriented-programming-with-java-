@@ -1,0 +1,28 @@
+class calculator 
+{
+    int num1, num2;
+    int add (int x, int y)
+    {
+        num1=x;
+        num2=y;
+        return num1+num2;
+            }
+int sub(int x, int y)
+{
+    num1 = x;
+    num2 = y;
+    return x-y;
+}
+}
+
+public class MyClass
+{
+    public static void main(String args[]) 
+    {
+        calculator cal = new calculator();
+        int result = cal.add(10,20);
+      System.out.println("The sum is:: " + result);
+       result = cal.sub(30,20);
+      System.out.println("The subtration is:: " + result);
+    }
+}
